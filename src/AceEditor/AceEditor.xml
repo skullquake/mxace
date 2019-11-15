@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="AceEditor.widget.AceEditor" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>AceEditor</name>
+    <description>The description of this widget.</description>
+
+    <icon>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</icon>
+
+
+	<properties>
+		<property key="attr_val" type="attribute">
+			<caption>String Attribute</caption>
+			<category>Data source</category>
+			<description>Attribute used to store/retrieve editor value</description>
+			<attributeTypes>
+				<attributeType name="String" />
+			</attributeTypes>
+		</property>
+		<property key="enum_lang" type="enumeration" defaultValue="JavaScript">
+			<caption>Language</caption>
+			<category>Appearance</category>
+			<description>The syntax highlighting to use</description>
+			<enumerationValues>
+				<enumerationValue key="ABAP">ABAP</enumerationValue>
+				<enumerationValue key="ABC">ABC</enumerationValue>
+				<enumerationValue key="ActionScript">ActionScript</enumerationValue>
+				<enumerationValue key="ADA">ADA</enumerationValue>
+				<enumerationValue key="Apache_Conf">Apache_Conf</enumerationValue>
+				<enumerationValue key="AsciiDoc">AsciiDoc</enumerationValue>
+				<enumerationValue key="Assembly_x86">Assembly_x86</enumerationValue>
+				<enumerationValue key="AutoHotKey">AutoHotKey</enumerationValue>
+				<enumerationValue key="BatchFile">BatchFile</enumerationValue>
+				<enumerationValue key="C9Search">C9Search</enumerationValue>
+				<enumerationValue key="C_Cpp">C_Cpp</enumerationValue>
+				<enumerationValue key="Cirru">Cirru</enumerationValue>
+				<enumerationValue key="Clojure">Clojure</enumerationValue>
+				<enumerationValue key="Cobol">Cobol</enumerationValue>
+				<enumerationValue key="coffee">coffee</enumerationValue>
+				<enumerationValue key="ColdFusion">ColdFusion</enumerationValue>
+				<enumerationValue key="CSharp">CSharp</enumerationValue>
+				<enumerationValue key="CSS">CSS</enumerationValue>
+				<enumerationValue key="Curly">Curly</enumerationValue>
+				<enumerationValue key="D">D</enumerationValue>
+				<enumerationValue key="Dart">Dart</enumerationValue>
+				<enumerationValue key="Diff">Diff</enumerationValue>
+				<enumerationValue key="Dockerfile">Dockerfile</enumerationValue>
+				<enumerationValue key="Dot">Dot</enumerationValue>
+				<enumerationValue key="Dummy">Dummy</enumerationValue>
+				<enumerationValue key="DummySyntax">DummySyntax</enumerationValue>
+				<enumerationValue key="Eiffel">Eiffel</enumerationValue>
+				<enumerationValue key="EJS">EJS</enumerationValue>
+				<enumerationValue key="Elixir">Elixir</enumerationValue>
+				<enumerationValue key="Elm">Elm</enumerationValue>
+				<enumerationValue key="Erlang">Erlang</enumerationValue>
+				<enumerationValue key="Forth">Forth</enumerationValue>
+				<enumerationValue key="FTL">FTL</enumerationValue>
+				<enumerationValue key="Gcode">Gcode</enumerationValue>
+				<enumerationValue key="Gherkin">Gherkin</enumerationValue>
+				<enumerationValue key="Gitignore">Gitignore</enumerationValue>
+				<enumerationValue key="Glsl">Glsl</enumerationValue>
+				<enumerationValue key="golang">golang</enumerationValue>
+				<enumerationValue key="Groovy">Groovy</enumerationValue>
+				<enumerationValue key="HAML">HAML</enumerationValue>
+				<enumerationValue key="Handlebars">Handlebars</enumerationValue>
+				<enumerationValue key="Haskell">Haskell</enumerationValue>
+				<enumerationValue key="haXe">haXe</enumerationValue>
+				<enumerationValue key="HTML">HTML</enumerationValue>
+				<enumerationValue key="HTML_Ruby">HTML_Ruby</enumerationValue>
+				<enumerationValue key="INI">INI</enumerationValue>
+				<enumerationValue key="Io">Io</enumerationValue>
+				<enumerationValue key="Jack">Jack</enumerationValue>
+				<enumerationValue key="Jade">Jade</enumerationValue>
+				<enumerationValue key="Java">Java</enumerationValue>
+				<enumerationValue key="JavaScript">JavaScript</enumerationValue>
+				<enumerationValue key="JSON">JSON</enumerationValue>
+				<enumerationValue key="JSONiq">JSONiq</enumerationValue>
+				<enumerationValue key="JSP">JSP</enumerationValue>
+				<enumerationValue key="JSX">JSX</enumerationValue>
+				<enumerationValue key="Julia">Julia</enumerationValue>
+				<enumerationValue key="LaTeX">LaTeX</enumerationValue>
+				<enumerationValue key="LESS">LESS</enumerationValue>
+				<enumerationValue key="Liquid">Liquid</enumerationValue>
+				<enumerationValue key="Lisp">Lisp</enumerationValue>
+				<enumerationValue key="LiveScript">LiveScript</enumerationValue>
+				<enumerationValue key="LogiQL">LogiQL</enumerationValue>
+				<enumerationValue key="LSL">LSL</enumerationValue>
+				<enumerationValue key="Lua">Lua</enumerationValue>
+				<enumerationValue key="LuaPage">LuaPage</enumerationValue>
+				<enumerationValue key="Lucene">Lucene</enumerationValue>
+				<enumerationValue key="Makefile">Makefile</enumerationValue>
+				<enumerationValue key="Markdown">Markdown</enumerationValue>
+				<enumerationValue key="Mask">Mask</enumerationValue>
+				<enumerationValue key="MATLAB">MATLAB</enumerationValue>
+				<enumerationValue key="MEL">MEL</enumerationValue>
+				<enumerationValue key="MUSHCode">MUSHCode</enumerationValue>
+				<enumerationValue key="MySQL">MySQL</enumerationValue>
+				<enumerationValue key="Nix">Nix</enumerationValue>
+				<enumerationValue key="ObjectiveC">ObjectiveC</enumerationValue>
+				<enumerationValue key="OCaml">OCaml</enumerationValue>
+				<enumerationValue key="Pascal">Pascal</enumerationValue>
+				<enumerationValue key="Perl">Perl</enumerationValue>
+				<enumerationValue key="pgSQL">pgSQL</enumerationValue>
+				<enumerationValue key="PHP">PHP</enumerationValue>
+				<enumerationValue key="Powershell">Powershell</enumerationValue>
+				<enumerationValue key="Praat">Praat</enumerationValue>
+				<enumerationValue key="Prolog">Prolog</enumerationValue>
+				<enumerationValue key="Properties">Properties</enumerationValue>
+				<enumerationValue key="Protobuf">Protobuf</enumerationValue>
+				<enumerationValue key="Python">Python</enumerationValue>
+				<enumerationValue key="R">R</enumerationValue>
+				<enumerationValue key="RDoc">RDoc</enumerationValue>
+				<enumerationValue key="RHTML">RHTML</enumerationValue>
+				<enumerationValue key="Ruby">Ruby</enumerationValue>
+				<enumerationValue key="Rust">Rust</enumerationValue>
+				<enumerationValue key="SASS">SASS</enumerationValue>
+				<enumerationValue key="SCAD">SCAD</enumerationValue>
+				<enumerationValue key="Scala">Scala</enumerationValue>
+				<enumerationValue key="Scheme">Scheme</enumerationValue>
+				<enumerationValue key="SCSS">SCSS</enumerationValue>
+				<enumerationValue key="SH">SH</enumerationValue>
+				<enumerationValue key="SJS">SJS</enumerationValue>
+				<enumerationValue key="Smarty">Smarty</enumerationValue>
+				<enumerationValue key="snippets">snippets</enumerationValue>
+				<enumerationValue key="Soy_Template">Soy_Template</enumerationValue>
+				<enumerationValue key="Space">Space</enumerationValue>
+				<enumerationValue key="SQL">SQL</enumerationValue>
+				<enumerationValue key="Stylus">Stylus</enumerationValue>
+				<enumerationValue key="SVG">SVG</enumerationValue>
+				<enumerationValue key="Tcl">Tcl</enumerationValue>
+				<enumerationValue key="Tex">Tex</enumerationValue>
+				<enumerationValue key="Text">Text</enumerationValue>
+				<enumerationValue key="Textile">Textile</enumerationValue>
+				<enumerationValue key="Toml">Toml</enumerationValue>
+				<enumerationValue key="Twig">Twig</enumerationValue>
+				<enumerationValue key="Typescript">Typescript</enumerationValue>
+				<enumerationValue key="Vala">Vala</enumerationValue>
+				<enumerationValue key="VBScript">VBScript</enumerationValue>
+				<enumerationValue key="Velocity">Velocity</enumerationValue>
+				<enumerationValue key="Verilog">Verilog</enumerationValue>
+				<enumerationValue key="VHDL">VHDL</enumerationValue>
+				<enumerationValue key="XML">XML</enumerationValue>
+				<enumerationValue key="XQuery">XQuery</enumerationValue>
+				<enumerationValue key="YAML">YAML</enumerationValue>
+			</enumerationValues>
+		</property>
+		<property key="enum_theme" type="enumeration" defaultValue="monokai">
+			<caption>Theme</caption>
+			<category>Appearance</category>
+			<description>The syntax theme to use</description>
+			<enumerationValues>
+				<enumerationValue key="ambiance">ambiance</enumerationValue>
+				<enumerationValue key="chaos">chaos</enumerationValue>
+				<enumerationValue key="chrome">chrome</enumerationValue>
+				<enumerationValue key="clouds">clouds</enumerationValue>
+				<enumerationValue key="clouds_midnight">clouds_midnight</enumerationValue>
+				<enumerationValue key="cobalt">cobalt</enumerationValue>
+				<enumerationValue key="crimson_editor">crimson_editor</enumerationValue>
+				<enumerationValue key="dawn">dawn</enumerationValue>
+				<enumerationValue key="dracula">dracula</enumerationValue>
+				<enumerationValue key="dreamweaver">dreamweaver</enumerationValue>
+				<enumerationValue key="eclipse">eclipse</enumerationValue>
+				<enumerationValue key="github">github</enumerationValue>
+				<enumerationValue key="gob">gob</enumerationValue>
+				<enumerationValue key="gruvbox">gruvbox</enumerationValue>
+				<enumerationValue key="idle_fingers">idle_fingers</enumerationValue>
+				<enumerationValue key="iplastic">iplastic</enumerationValue>
+				<enumerationValue key="katzenmilch">katzenmilch</enumerationValue>
+				<enumerationValue key="kr_theme">kr_theme</enumerationValue>
+				<enumerationValue key="kuroir">kuroir</enumerationValue>
+				<enumerationValue key="merbivore">merbivore</enumerationValue>
+				<enumerationValue key="merbivore_soft">merbivore_soft</enumerationValue>
+				<enumerationValue key="mono_industrial">mono_industrial</enumerationValue>
+				<enumerationValue key="monokai">monokai</enumerationValue>
+				<enumerationValue key="pastel_on_dark">pastel_on_dark</enumerationValue>
+				<enumerationValue key="solarized_dark">solarized_dark</enumerationValue>
+				<enumerationValue key="solarized_light">solarized_light</enumerationValue>
+				<enumerationValue key="sqlserver">sqlserver</enumerationValue>
+				<enumerationValue key="terminal">terminal</enumerationValue>
+				<enumerationValue key="textmate">textmate</enumerationValue>
+				<enumerationValue key="tomorrow">tomorrow</enumerationValue>
+				<enumerationValue key="tomorrow_night">tomorrow_night</enumerationValue>
+				<enumerationValue key="tomorrow_night_blue">tomorrow_night_blue</enumerationValue>
+				<enumerationValue key="tomorrow_night_bright">tomorrow_night_bright</enumerationValue>
+				<enumerationValue key="tomorrow_night_eighties">tomorrow_night_eighties</enumerationValue>
+				<enumerationValue key="twilight">twilight</enumerationValue>
+				<enumerationValue key="vibrant_ink">vibrant_ink</enumerationValue>
+				<enumerationValue key="xcode">xcode</enumerationValue>
+			</enumerationValues>
+		</property>
+		<property key="bool_editable" type="boolean" defaultValue="true">
+			<caption>Editable</caption>
+			<category>Behavior</category>
+			<description>Editable/Non-Editable</description>
+		</property>
+		<property key="bool_vikeys" type="boolean" defaultValue="true">
+			<caption>ViKeys</caption>
+			<category>Behavior</category>
+			<description>Use vi key bindings</description>
+		</property>
+		<property key="int_minlines" type="integer" defaultValue="8">
+			<caption>Min Lines</caption>
+			<category>Appearance</category>
+			<description>Minimum lines to show</description>
+		</property>
+		<property key="int_maxlines" type="integer" defaultValue="8">
+			<caption>Max Lines</caption>
+			<category>Appearance</category>
+			<description>Maximum lines to show</description>
+		</property>
+		<property key="col_cmd" type="object" isList="true" required="false">
+			<caption>Command Configuration</caption>
+			<category>Behavior</category>
+			<description>Add commands</description>
+			<properties>
+				<!-- Define the sub-properties here -->
+				<property key="str_cmd" type="string" required="true">
+					<caption>Command string</caption>
+					<category>Configuration</category>
+					<description>:CMD</description>
+				</property>
+				<property key="mf_cmd" type="microflow" required="true">
+					<caption>Command MF</caption>
+					<category>Configuration</category>
+					<description>Microflow to execute on command invocation.</description>
+					<returnType type="String" />
+				</property>
+			</properties>
+		</property>
+	</properties>
+</widget>
